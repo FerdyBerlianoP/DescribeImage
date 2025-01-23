@@ -3,6 +3,7 @@ import google.generativeai as genai
 from PIL import Image
 import requests
 import io
+import os
 
 class ImageDescriber:
   """
