@@ -1,4 +1,4 @@
 flask
 requests
-PIL
+Pillow==10.0.0 
 google-generativeai
