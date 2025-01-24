@@ -3,6 +3,7 @@ import google.generativeai as genai
 from PIL import Image
 import requests
 import io
+import os
 
 class ImageDescriber:
   """
@@ -64,8 +65,7 @@ def describe_images():
     return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-  # app.run(debug=True)
-  app.run(host='0.0.0.0', port=port, debug=True)
+  app.run(debug=True)
 
 # from flask import Flask, request, jsonify
 # import google.generativeai as genai
